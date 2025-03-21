@@ -9,12 +9,12 @@ final class CoinGeckoManager {
     private let logger = Logger(subsystem: "com.application", category: "CoinGeckoManager")
     
     private init() {
-        let apiKey = "CG-9jxjVkLsiHWPBovzi59zGRsb"
+        let apiKey = "API-KEY"
         self.service = CoinGeckoService(apiKey: apiKey)
         logger.info("CoinGeckoManager initialized with API key")
     }
     
-    init(service: CoinGeckoServiceProtocol = CoinGeckoService(apiKey: "CG-VK2yKvXyxpU8k2YjSXbPMtbx")) {
+    init(service: CoinGeckoServiceProtocol = CoinGeckoService(apiKey: "API-KEY")) {
         self.service = service
         logger.info("CoinGeckoManager initialized")
     }
