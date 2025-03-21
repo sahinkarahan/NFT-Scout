@@ -63,7 +63,7 @@ struct NFTGridView: View {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "x-api-key": "c12c83c5cbcd4b598689f36280490cbe"
+            "x-api-key": "API-KEY"
         ]
         
         let (data, _) = try await URLSession.shared.data(for: request)
@@ -79,7 +79,7 @@ struct NFTGridView: View {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
             "accept": "application/json",
-            "x-api-key": "c12c83c5cbcd4b598689f36280490cbe"
+            "x-api-key": "API-KEY"
         ]
         
         let (data, _) = try await URLSession.shared.data(for: request)
