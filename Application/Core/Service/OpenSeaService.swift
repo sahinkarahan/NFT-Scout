@@ -15,7 +15,7 @@ final class OpenSeaService: OpenSeaServiceProtocol {
     // MARK: - Properties
     
     private let baseURL = "https://api.opensea.io/api/v2"
-    private let apiKey = "c12c83c5cbcd4b598689f36280490cbe"
+    private let apiKey = "API-KEY"
     
     // MARK: - Public Methods
     
